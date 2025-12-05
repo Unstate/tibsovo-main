@@ -91,36 +91,7 @@ function Warning({ imageUrl, imageAlt = "Предупреждение", isOpen: 
           }}
           onClick={(e) => e.stopPropagation()}
         >
-          {/* Close Button */}
-          <button
-            onClick={() => setIsOpen(false)}
-            className="absolute right-4 top-4 w-8 h-8 flex items-center justify-center cursor-pointer opacity-70 hover:opacity-100 transition-opacity z-10"
-            aria-label="Закрыть"
-          >
-            <svg 
-              width="26" 
-              height="26" 
-              viewBox="0 0 26 26" 
-              fill="none" 
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path 
-                d="M5.5 5.5L20.5 20.5" 
-                stroke="#151518" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-              />
-              <path 
-                d="M20.5 5.5L5.5 20.5" 
-                stroke="#151518" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-
+         
           {/* Content Container */}
           <div className="w-full flex flex-col items-stretch text-[#151518] leading-[22px]">
             {/* Logo/Image */}
@@ -138,12 +109,12 @@ function Warning({ imageUrl, imageAlt = "Предупреждение", isOpen: 
 
             {/* Warning Text */}
             <p className="text-[#151518] font-normal mt-5">
-              Информация, размещённая на данном веб-сайте, предназначена только для медицинских и фармацевтических работников Российской Федерации и не может быть использована иными лицами, в том числе для замены консультаций со специалистом/врачом.
+              Информация, размещённая на данном веб-сайте, предназначена только для медицинских <br className={'hidden md:block'}/>и фармацевтических работников Российской Федерации и не может быть использована иными лицами, в том числе для замены консультаций <br className={'hidden md:block'}/>со специалистом/врачом.
             </p>
 
             {/* Question Text */}
             <p className="text-[#151518] font-semibold mt-5">
-              Вы являетесь медицинским и/или фармацевтическим работником и согласны с утверждением выше?
+              Вы являетесь медицинским и/или фармацевтическим работником и согласны <br className={'hidden md:block'}/>с утверждением выше?
             </p>
 
             {/* Buttons */}

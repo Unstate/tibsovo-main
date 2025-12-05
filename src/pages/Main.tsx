@@ -42,17 +42,23 @@ function Main() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleCardClick = () => {
-    navigate("/tibsovo");
+  const handleCardClick = (cardTitle: string) => {
+    if (cardTitle === "Холангиокарцинома") {
+      window.open("https://andreyemc.github.io/tibsovo/");
+    } else if (cardTitle === "Острый миелоидный лейкоз") {
+      alert("Страница в разработке.");
+    }
   };
   const cards = [
     {
       title: "Холангиокарцинома",
-      text: "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной \nили метастатической холангиокарциномой \nс мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии",
+      text: "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной \nили метастатической холангиокарциномой \nс мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии.",
+      color: "#61279E",
     },
     {
       title: "Острый миелоидный лейкоз",
       text: "Препарат ТИБСОВО® в комбинации \nс азацитидином показан к применению для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132, \nкоторым не показана стандартная \nиндукционная химиотерапия.",
+      color: "#87A9E2",
     },
   ];
 
@@ -63,20 +69,21 @@ function Main() {
         {/* Background Molecules Mobile */}
         <div
           className="molecule-wrapper"
-          style={withMoleculeAnimation({
-            position: "fixed",
-            top: "2%",
-            right: "-10%",
-            width: "35%",
-            zIndex: 1,
-            pointerEvents: "none",
-          }, "0.15s", "-5s", "-2s")}
+          style={withMoleculeAnimation(
+            {
+              position: "fixed",
+              top: "2%",
+              right: "-10%",
+              width: "35%",
+              zIndex: 1,
+              pointerEvents: "none",
+            },
+            "0.15s",
+            "-5s",
+            "-2s"
+          )}
         >
-          <img
-            src={molecule7}
-            alt=""
-            className="molecule-image"
-          />
+          <img src={molecule7} alt="" className="molecule-image" />
         </div>
 
         {/* Мобильная версия Header */}
@@ -93,18 +100,18 @@ function Main() {
         </div>
 
         {/* Мобильная версия контента */}
-        <div className="w-full max-w-[480px] mx-auto px-4">
+        <div className="w-full max-w-[480px] mx-auto px-4 relative z-10">
           <div className="w-full max-w-[343px] mx-auto mt-2 flex flex-col items-stretch">
             {cards.map((card, index) => (
               <div
                 key={index}
                 className="w-full flex flex-col justify-between rounded-[16px] px-6 py-6 card-hover"
                 style={{
-                  backgroundColor: "#61279E",
+                  backgroundColor: card.color,
                   marginTop: index > 0 ? "8px" : "0",
                   cursor: "pointer",
                 }}
-                onClick={handleCardClick}
+                onClick={() => handleCardClick(card.title)}
               >
                 {/* Контент */}
                 <div className="w-full flex flex-col items-stretch text-white flex-1">
@@ -124,6 +131,9 @@ function Main() {
 
                 {/* Иконка стрелки в правом нижнем углу */}
                 <div className="w-full flex items-center justify-end gap-2 mt-4">
+                  <p className="text-[12px] font-[600] text-white">
+                    Перейти на сайт
+                  </p>
                   <div
                     className="relative flex items-center justify-center shrink-0"
                     style={{
@@ -161,80 +171,85 @@ function Main() {
         {/* Top Left Molecule (Orange) - 17 */}
         <div
           className="molecule-wrapper"
-          style={withMoleculeAnimation({
-            position: "fixed",
-            top: "-2%",
-            left: "-2%",
-            width: "20%",
-            zIndex: 1,
-            pointerEvents: "none",
-          }, "0s", "-12s", "-4s")}
+          style={withMoleculeAnimation(
+            {
+              position: "fixed",
+              top: "-2%",
+              left: "-2%",
+              width: "20%",
+              zIndex: 1,
+              pointerEvents: "none",
+            },
+            "0s",
+            "-12s",
+            "-4s"
+          )}
         >
-          <img
-            src={molecule17}
-            alt=""
-            className="molecule-image"
-          />
+          <img src={molecule17} alt="" className="molecule-image" />
         </div>
 
         {/* Top Right Molecule - 20 */}
         <div
           className="molecule-wrapper"
-          style={withMoleculeAnimation({
-            position: "fixed",
-            top: "5%",
-            right: "-5%",
-            width: "18%",
-            zIndex: 1,
-            pointerEvents: "none",
-          }, "0.25s", "-7s", "-10s")}
+          style={withMoleculeAnimation(
+            {
+              position: "fixed",
+              top: "5%",
+              right: "-5%",
+              width: "18%",
+              zIndex: 1,
+              pointerEvents: "none",
+            },
+            "0.25s",
+            "-7s",
+            "-10s"
+          )}
         >
-          <img
-            src={molecule20}
-            alt=""
-            className="molecule-image"
-          />
+          <img src={molecule20} alt="" className="molecule-image" />
         </div>
 
         {/* Middle Left Molecule - 13 */}
         <div
           className="molecule-wrapper"
-          style={withMoleculeAnimation({
-            position: "fixed",
-            top: "45%",
-            left: "-5%",
-            width: "15%",
-            zIndex: 1,
-            pointerEvents: "none",
-          }, "0.4s", "-3s", "-13s")}
+          style={withMoleculeAnimation(
+            {
+              position: "fixed",
+              top: "45%",
+              left: "-5%",
+              width: "15%",
+              zIndex: 1,
+              pointerEvents: "none",
+            },
+            "0.4s",
+            "-3s",
+            "-13s"
+          )}
         >
-          <img
-            src={molecule13}
-            alt=""
-            className="molecule-image"
-          />
+          <img src={molecule13} alt="" className="molecule-image" />
         </div>
 
         {/* Bottom Right Molecule - 16 */}
         <div
           className="molecule-wrapper"
-          style={withMoleculeAnimation({
-            position: "fixed",
-            bottom: "10%",
-            right: "-2%",
-            width: "18%",
-            zIndex: 1,
-            pointerEvents: "none",
-          }, "0.55s", "-15s", "-8s")}
+          style={withMoleculeAnimation(
+            {
+              position: "fixed",
+              bottom: "10%",
+              right: "-2%",
+              width: "18%",
+              zIndex: 1,
+              pointerEvents: "none",
+            },
+            "0.55s",
+            "-15s",
+            "-8s"
+          )}
         >
-          <img
-            src={molecule16}
-            alt=""
-            className="molecule-image"
-          />
+          <img src={molecule16} alt="" className="molecule-image" />
         </div>
 
         <div
+          className={"md:z-0 z-10"}
           style={{
             position: "fixed",
             top: 0,
@@ -244,13 +259,13 @@ function Main() {
             width: "100%",
             opacity: opacity,
             transition: "opacity 0.3s ease-out",
-            // zIndex: 2
           }}
         >
           <section
-            className="w-full bg-white py-12 md:py-5"
+            className="w-full bg-white py-12 md:py-5 "
             style={{
-              fontFamily: "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+              fontFamily:
+                "Geist, -apple-system, Roboto, Helvetica, sans-serif ",
             }}
           >
             {/* Логотип */}
@@ -279,11 +294,11 @@ function Main() {
                     key={index}
                     className="flex-1 min-w-[240px] flex flex-col justify-between rounded-[20px] px-5 py-8 md:px-8 md:py-8 card-hover"
                     style={{
-                      backgroundColor: "#61279E",
+                      backgroundColor: card.color,
                       minHeight: "380px",
-                      cursor: "pointer"
+                      cursor: "pointer",
                     }}
-                    onClick={handleCardClick}
+                    onClick={() => handleCardClick(card.title)}
                   >
                     {/* Контент */}
                     <div className="w-full flex flex-col items-stretch text-white flex-1">
@@ -303,6 +318,9 @@ function Main() {
 
                     {/* Иконка стрелки в правом нижнем углу */}
                     <div className="w-full flex items-center justify-end gap-2 mt-auto">
+                      <p className="text-[16px] font-[600] text-white">
+                        Перейти на сайт
+                      </p>
                       <div
                         className="relative flex items-center justify-center shrink-0"
                         style={{

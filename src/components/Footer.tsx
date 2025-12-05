@@ -17,7 +17,8 @@ function Footer() {
             className="flex flex-col items-start flex-1 w-full md:w-auto"
           >
             {/* Логотип */}
-            <div
+            <a
+              href='https://servier.ru/'
               className="flex items-center justify-center min-h-[24px] md:min-h-[30px] w-[120px] md:w-[150px]"
             >
               <img
@@ -25,24 +26,29 @@ function Footer() {
                 alt="Servier Logo"
                 className="w-full h-auto object-contain"
               />
-            </div>
+            </a>
+              <p
+              className="text-[#151518] text-sm md:hidden mt-[24px] font-normal uppercase leading-[140%] md:leading-normal"
+            >
+              материал предназначен для специалистов здравоохранения
+            </p>
 
             {/* Колонка 1: Адрес офиса */}
             <div
               className="flex flex-col items-start mt-6 md:mt-12 text-[10px] md:text-xs text-[#151518] font-normal"
             >
               <p
-                className="text-[#151518] font-bold leading-[1.25] uppercase"
+                className="text-[#151518] font-bold leading-[1.25] uppercase "
               >
                 Адрес офиса:
               </p>
               <p
-                className="text-[#151518] mt-4 md:mt-[23px]"
+                className="text-[#151518] mt-[8px] md:mt-[23px]"
               >
                 АО «Сервье»:
               </p>
               <p
-                className="text-[#151518] leading-[14px] md:leading-[18px] whitespace-pre-line"
+                className="text-[#151518] leading-[14px] mt-[8px] md:mt-0 md:leading-[18px] whitespace-pre-line"
               >
                 {`125196, Москва, ул. Лесная, д.7, этажи 7/8/9
 Бизнес-центр Белые Сады`}
@@ -50,7 +56,7 @@ function Footer() {
               <a
                 href='tel:+74959370700'
                 target='_blank'
-                className="text-[#151518]"
+                className="text-[#151518] md:mt-0 mt-[8px]"
               >
                 Телефон: +7 495 937-07-00
               </a>
@@ -74,18 +80,18 @@ function Footer() {
 
           {/* Правый блок */}
           <div
-            className="flex flex-col items-start flex-1 md:flex-3 w-full md:w-auto mt-6 md:mt-0"
+            className="flex flex-col items-start flex-1 md:flex-3 w-full md:w-auto mt-0"
           >
             {/* материал */}
             <p
-              className="text-[#151518] text-sm md:text-[20px] font-normal uppercase leading-[140%] md:leading-normal"
+              className="text-[#151518] text-sm md:block hidden md:text-[20px] font-normal uppercase leading-[140%] md:leading-normal"
             >
               материал предназначен для специалистов здравоохранения
             </p>
 
             {/* Колонка 2 и Колонка 3 */}
             <div
-              className="w-full flex flex-col lg:flex-row items-start mt-6 md:mt-12 gap-6 md:gap-x-[93px] md:gap-y-10"
+              className="w-full flex flex-col lg:flex-row items-start mt-0 md:mt-12 gap-6 md:gap-x-[93px] md:gap-y-10"
             >
               {/* Колонка 2: Сообщить о нежелательном явлении */}
               <div
@@ -139,7 +145,7 @@ function Footer() {
                 className="flex flex-col items-stretch flex-1 min-w-0 md:min-w-[200px] text-[10px] md:text-xs text-[#151518] font-normal leading-[16px] md:leading-6 justify-center"
               >
                 <p className="text-[#151518]">
-                  ТИБСОВО® <br /><span className="text-black">РУ ЛП-№(012213)-(РГ-RU)</span>
+                  ТИБСОВО® <br /><span className="text-[#00000080]">РУ ЛП-№(012213)-(РГ-RU)</span>
                 </p>
                 <a 
                   href='https://servier.ru/terms-of-use/ '
