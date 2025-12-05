@@ -1,0 +1,954 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "id": "builder-523c234f128bd578136136443cd8c913",
+            "responsiveStyles": {
+                "large": {
+                    "borderRadius": "24px",
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "display": "flex",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "maxWidth": "480px",
+                    "width": "100%",
+                    "flexDirection": "column",
+                    "overflow": "hidden",
+                    "alignItems": "stretch"
+                },
+                "medium": {}
+            },
+            "meta": {
+                "fromJSX": true,
+                "id": "880:8703",
+                "type": "COMPONENT",
+                "name": "Mobile",
+                "fromFigma": true,
+                "vcpImportId": "vcp-ffbfb037c9d0401ba8f714f6abf0562c",
+                "vcpFigmaSelectionUUID": "919d0656-f9ed-4b91-ae51-c8de547244d5"
+            },
+            "layerName": "Mobile",
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-4bf496d4a345bd4df37b1ceb912c2860",
+                    "responsiveStyles": {
+                        "large": {
+                            "boxShadow": "0px 1px 48px rgba(0, 0, 0, 0.05)",
+                            "position": "relative",
+                            "display": "flex",
+                            "width": "100%"
+                        },
+                        "medium": {}
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "879:7558",
+                        "type": "FRAME",
+                        "name": "Header"
+                    },
+                    "layerName": "Header",
+                    "component": {
+                        "name": "Image",
+                        "options": {
+                            "aspectRatio": 0.341,
+                            "noWebp": true,
+                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/cdd85c18e4c920b57674607ca6f50e02e1ef537d?placeholderIfAbsent=true",
+                            "backgroundSize": "contain"
+                        }
+                    }
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-dffccdb1bdbc98791bcc052099f410c7",
+                    "responsiveStyles": {
+                        "large": {
+                            "alignSelf": "center",
+                            "display": "flex",
+                            "marginTop": "8px",
+                            "width": "100%",
+                            "maxWidth": "343px",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "justifyContent": "center"
+                        },
+                        "medium": {}
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "979:95338",
+                        "type": "FRAME",
+                        "name": "Frame 2131328946"
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-bbba011f16ea3fd6fc597b028c10bfff",
+                            "responsiveStyles": {
+                                "large": {
+                                    "alignItems": "stretch",
+                                    "borderRadius": "16px",
+                                    "display": "flex",
+                                    "width": "100%",
+                                    "paddingLeft": "24px",
+                                    "paddingRight": "24px",
+                                    "paddingTop": "24px",
+                                    "paddingBottom": "24px",
+                                    "flexDirection": "column",
+                                    "justifyContent": "start",
+                                    "background": "var(--Accent_2, #61279E)"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95339",
+                                "type": "FRAME",
+                                "name": "Frame 2131328687"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-ba62b1fbfd53dcfd0602c1cd180b63f2",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "width": "100%",
+                                            "flexDirection": "column",
+                                            "alignItems": "stretch",
+                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                            "color": "var(--Body-White, #FFF)",
+                                            "justifyContent": "start"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95773",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328959"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-9cc322dc1dd35446825bbe709e0d1db3",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-White, #FFF)",
+                                                    "fontSize": "20px",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "1.2",
+                                                    "letterSpacing": "-0.4px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95340",
+                                                "type": "TEXT",
+                                                "name": "Холангиокарцинома"
+                                            },
+                                            "layerName": "Холангиокарцинома",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Холангиокарцинома"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-ed3821bcea4bb387b329cd518358dbad",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-White, #FFF)",
+                                                    "fontSize": "12px",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "17px",
+                                                    "marginTop": "16px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95341",
+                                                "type": "TEXT",
+                                                "name": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии."
+                                            },
+                                            "layerName": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии.",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-74fa2042eabf1628cbe8392cce48ec03",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "marginTop": "16px",
+                                            "width": "100%",
+                                            "alignItems": "center",
+                                            "gap": "8px",
+                                            "justifyContent": "end"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95697",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328945"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-5243e9cd1df00a344ba9493373cc6308",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative",
+                                                    "display": "flex",
+                                                    "marginTop": "auto",
+                                                    "marginBottom": "auto",
+                                                    "width": "32px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95698",
+                                                "type": "FRAME",
+                                                "name": "Arrows, Diagrams/Arrow"
+                                            },
+                                            "layerName": "Arrows, Diagrams/Arrow",
+                                            "component": {
+                                                "name": "Image",
+                                                "options": {
+                                                    "aspectRatio": 1,
+                                                    "noWebp": true,
+                                                    "image": "https://api.builder.io/api/v1/image/assets/TEMP/ef164d57d1833fff3e887c89b7587907d56afcc6?placeholderIfAbsent=true",
+                                                    "backgroundSize": "contain"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-592016735d14cfad4e77e080d2c89971",
+                            "responsiveStyles": {
+                                "large": {
+                                    "alignItems": "stretch",
+                                    "borderRadius": "16px",
+                                    "display": "flex",
+                                    "marginTop": "8px",
+                                    "width": "100%",
+                                    "paddingLeft": "24px",
+                                    "paddingRight": "24px",
+                                    "paddingTop": "24px",
+                                    "paddingBottom": "24px",
+                                    "flexDirection": "column",
+                                    "justifyContent": "start",
+                                    "background": "var(--Accent_2, #61279E)"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95342",
+                                "type": "FRAME",
+                                "name": "Frame 2131328689"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-45298f243b684fa6b3ae1fec6591d44c",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "width": "100%",
+                                            "flexDirection": "column",
+                                            "alignItems": "stretch",
+                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                            "color": "var(--Body-White, #FFF)",
+                                            "justifyContent": "start"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95763",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328958"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-7fef75873af7d062f972622d5b40009b",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-White, #FFF)",
+                                                    "fontSize": "20px",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "1.2",
+                                                    "letterSpacing": "-0.4px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95343",
+                                                "type": "TEXT",
+                                                "name": "Острый миелоидный лейкоз"
+                                            },
+                                            "layerName": "Острый миелоидный лейкоз",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Острый миелоидный лейкоз"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-9840b5cacb54e44fbd9388544a0e2468",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-White, #FFF)",
+                                                    "fontSize": "12px",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "17px",
+                                                    "marginTop": "16px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95344",
+                                                "type": "TEXT",
+                                                "name": "Препарат ТИБСОВО® в комбинации  с азацитидином показан к применению  для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия."
+                                            },
+                                            "layerName": "Препарат ТИБСОВО® в комбинации  с азацитидином показан к применению  для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия.",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Препарат ТИБСОВО® в комбинации  с азацитидином показан к применению  для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-453aba78368b3c3fc230c5019babf381",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "marginTop": "16px",
+                                            "width": "100%",
+                                            "alignItems": "center",
+                                            "gap": "8px",
+                                            "justifyContent": "end"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95730",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328945"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-fcc08446439890eb1ed6bd43096f2ea3",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative",
+                                                    "display": "flex",
+                                                    "marginTop": "auto",
+                                                    "marginBottom": "auto",
+                                                    "width": "32px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "979:95731",
+                                                "type": "FRAME",
+                                                "name": "Arrows, Diagrams/Arrow"
+                                            },
+                                            "layerName": "Arrows, Diagrams/Arrow",
+                                            "component": {
+                                                "name": "Image",
+                                                "options": {
+                                                    "aspectRatio": 1,
+                                                    "noWebp": true,
+                                                    "image": "https://api.builder.io/api/v1/image/assets/TEMP/ef164d57d1833fff3e887c89b7587907d56afcc6?placeholderIfAbsent=true",
+                                                    "backgroundSize": "contain"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-c208228bdd39de9551b72eff8d9c849f",
+                    "responsiveStyles": {
+                        "large": {
+                            "alignSelf": "center",
+                            "position": "relative",
+                            "display": "flex",
+                            "marginTop": "32px",
+                            "width": "100%",
+                            "maxWidth": "277px"
+                        },
+                        "medium": {}
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "953:705",
+                        "type": "RECTANGLE",
+                        "name": "image 5"
+                    },
+                    "layerName": "image 5",
+                    "component": {
+                        "name": "Image",
+                        "options": {
+                            "aspectRatio": 1.841,
+                            "noWebp": false,
+                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/ac2cc0ff5ba49e91315f8beeaa2316ff1b357467?placeholderIfAbsent=true",
+                            "backgroundSize": "contain"
+                        }
+                    }
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-d5a2bf5aa4d73585e7c6161520a71bd5",
+                    "responsiveStyles": {
+                        "large": {
+                            "backgroundColor": "rgba(243, 241, 251, 1)",
+                            "display": "flex",
+                            "marginTop": "32px",
+                            "width": "100%",
+                            "paddingLeft": "16px",
+                            "paddingRight": "16px",
+                            "paddingTop": "32px",
+                            "paddingBottom": "32px",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                            "fontSize": "12px",
+                            "color": "var(--Body-Black, #151518)",
+                            "fontWeight": "400",
+                            "justifyContent": "center"
+                        },
+                        "medium": {}
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "880:8672",
+                        "type": "FRAME",
+                        "name": "Footer"
+                    },
+                    "layerName": "Footer",
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-bad6a047f74fb9f5cabbee38a52f53f3",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Body-Black, #151518)",
+                                    "fontSize": "20px",
+                                    "lineHeight": "30px",
+                                    "textTransform": "uppercase"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8682",
+                                "type": "TEXT",
+                                "name": "материал предназначен  для специалистов здравоохранения"
+                            },
+                            "layerName": "материал предназначен  для специалистов здравоохранения",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "материал предназначен  для специалистов здравоохранения"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-342d2c472bd4c58ab329ceba193ffe23",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "24px",
+                                    "width": "100%",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "justifyContent": "start"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8683",
+                                "type": "FRAME",
+                                "name": "Frame 24061122"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-6785d507e5cf3bf6d7cb36aee7ae4c2b",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "fontWeight": "700",
+                                            "lineHeight": "1.25",
+                                            "textTransform": "uppercase"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8684",
+                                        "type": "TEXT",
+                                        "name": "Адрес офиса:"
+                                    },
+                                    "layerName": "Адрес офиса:",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Адрес офиса:"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-74d0d1f60f25ee980a97b51059fb733b",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8685",
+                                        "type": "TEXT",
+                                        "name": "АО «Сервье»:"
+                                    },
+                                    "layerName": "АО «Сервье»:",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "АО «Сервье»:"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-2f5e6fefd5f70a7aed824b4da16e45ae",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "start",
+                                            "display": "flex",
+                                            "marginTop": "8px",
+                                            "flexDirection": "column",
+                                            "alignItems": "stretch",
+                                            "lineHeight": "18px",
+                                            "justifyContent": "start"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8686",
+                                        "type": "FRAME",
+                                        "name": "Link"
+                                    },
+                                    "layerName": "Link",
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-cea1707ee8aa0ea8b867ba3654cb71ff",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-Black, #151518)"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "880:8687",
+                                                "type": "TEXT",
+                                                "name": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9 Бизнес-центр Белые Сады"
+                                            },
+                                            "layerName": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9 Бизнес-центр Белые Сады",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9<br/>Бизнес-центр Белые Сады"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-40af1e46a6ef690a3511403ad1e98878",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8688",
+                                        "type": "TEXT",
+                                        "name": "Телефон: +7 495 937-07-00"
+                                    },
+                                    "layerName": "Телефон: +7 495 937-07-00",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Телефон: +7 495 937-07-00"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-21a5d9994809c0598bf9f752c25b3d2b",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8689",
+                                        "type": "TEXT",
+                                        "name": "Link → ru.communications@servier.com"
+                                    },
+                                    "layerName": "Link → ru.communications@servier.com",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "ru.communications@servier.com"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-ed07fa5f7e7ee749bb28e1c60bd49550",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "24px",
+                                    "width": "100%",
+                                    "paddingRight": "1px",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "fontWeight": "700",
+                                    "justifyContent": "start"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8690",
+                                "type": "FRAME",
+                                "name": "Container"
+                            },
+                            "layerName": "Container",
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-8704f54e46b36a6f5c3784e0001fba4c",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "lineHeight": "30px",
+                                            "textTransform": "uppercase"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8691",
+                                        "type": "TEXT",
+                                        "name": "Сообщить о нежелательном явлении"
+                                    },
+                                    "layerName": "Сообщить о нежелательном явлении",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Сообщить о нежелательном явлении"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-bb3739edb6511c4204ee40c40f8114e8",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "fontWeight": "400",
+                                            "lineHeight": "18px",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8692",
+                                        "type": "TEXT",
+                                        "name": "передать запрос по препарату или связаться по другим вопросам Вы можете через форму обратной связи"
+                                    },
+                                    "layerName": "передать запрос по препарату или связаться по другим вопросам Вы можете через форму обратной связи",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "передать запрос по препарату или связаться по другим<br/>вопросам Вы можете через форму обратной связи"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-2ce7b01a5464f9d892ed98f42ffa3b89",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "justifyContent": "center",
+                                            "alignItems": "center",
+                                            "borderRadius": "5px",
+                                            "border": "1px solid var(--Body-Black, #151518)",
+                                            "display": "flex",
+                                            "marginTop": "8px",
+                                            "minHeight": "50px",
+                                            "width": "100%",
+                                            "paddingLeft": "27px",
+                                            "paddingRight": "27px",
+                                            "paddingTop": "17px",
+                                            "paddingBottom": "17px",
+                                            "gap": "20px",
+                                            "overflow": "hidden",
+                                            "fontSize": "14px",
+                                            "textAlign": "center",
+                                            "lineHeight": "1.14"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8693",
+                                        "type": "FRAME",
+                                        "name": "Border"
+                                    },
+                                    "layerName": "Border",
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-8a4917b9018f2f4f498fb17658908417",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-Black, #151518)",
+                                                    "alignSelf": "stretch",
+                                                    "marginTop": "auto",
+                                                    "marginBottom": "auto"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "880:8694",
+                                                "type": "TEXT",
+                                                "name": "Форма обратной связи"
+                                            },
+                                            "layerName": "Форма обратной связи",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Форма обратной связи"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-a139c148291660ecc4dadf2f60649bf4",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "24px",
+                                    "width": "100%",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "lineHeight": "24px",
+                                    "justifyContent": "center"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8695",
+                                "type": "FRAME",
+                                "name": "Frame 24061098"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-3edb0177c1311a07e044c750c2d15b0f",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "#151518"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8696",
+                                        "type": "TEXT",
+                                        "name": "Item → Link → Условия использования"
+                                    },
+                                    "layerName": "Item → Link → Условия использования",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "ТИБСОВО® <span style=\"color: rgba(0,0,0,1);\">РУ ЛП-№(012213)-(РГ-RU)</span>"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-de1f8d3655ecf9282201ed2d0ad1c6c3",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8697",
+                                        "type": "TEXT",
+                                        "name": "Item → Link → Условия использования"
+                                    },
+                                    "layerName": "Item → Link → Условия использования",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Условия использования"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-e76164099a3ce73919ef5e105bbdf967",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "marginTop": "8px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "880:8698",
+                                        "type": "TEXT",
+                                        "name": "Item → Link → Политика в отношении обработки персональных данных"
+                                    },
+                                    "layerName": "Item → Link → Политика в отношении обработки персональных данных",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Политика в отношении обработки персональных данных"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-c8536ed070319eba825362219506577a",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Body-Black, #151518)",
+                                    "lineHeight": "18px",
+                                    "marginTop": "24px"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8699",
+                                "type": "TEXT",
+                                "name": "Link → ru.communications@servier.com"
+                            },
+                            "layerName": "Link → ru.communications@servier.com",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "ООО «СЕРВЬЕ РУС», 108828 г. Москва, пос. Краснопахорское, квартал 158, вл.2, стр.1, кабинет 169 Тел. +7 (495) 225-80-10"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-7497e6158401736ec709f73a79971021",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Body-Black, #151518)",
+                                    "lineHeight": "18px",
+                                    "opacity": "0.5",
+                                    "marginTop": "24px"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "880:8700",
+                                "type": "TEXT",
+                                "name": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены"
+                            },
+                            "layerName": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-ffbfb037c9d0401ba8f714f6abf0562c"
+}

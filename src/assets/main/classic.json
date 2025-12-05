@@ -1,0 +1,376 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "id": "builder-9c39fe20dd054b471253d39a60db0f3d",
+            "responsiveStyles": {
+                "large": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "justifyContent": "start",
+                    "flexWrap": "wrap"
+                },
+                "medium": {}
+            },
+            "meta": {
+                "fromJSX": true,
+                "id": "979:95783",
+                "type": "FRAME",
+                "name": "Frame 2131328945",
+                "fromFigma": true,
+                "vcpImportId": "vcp-6fa30f6807e147418c6c3a7098b7f608",
+                "vcpFigmaSelectionUUID": "3ba224d9-b5f2-41f8-9409-b6ae6c5baf69"
+            },
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-d7d0b90bec2876bb68c789a976b5c0aa",
+                    "responsiveStyles": {
+                        "large": {
+                            "justifyContent": "space-between",
+                            "alignItems": "stretch",
+                            "borderRadius": "20px",
+                            "alignSelf": "stretch",
+                            "display": "flex",
+                            "minWidth": "240px",
+                            "marginTop": "auto",
+                            "marginBottom": "auto",
+                            "minHeight": "380px",
+                            "paddingLeft": "32px",
+                            "paddingRight": "32px",
+                            "paddingTop": "32px",
+                            "paddingBottom": "32px",
+                            "flexDirection": "column",
+                            "flex": "1",
+                            "flexShrink": "1",
+                            "flexBasis": "0%",
+                            "background": "var(--Accent_2, #61279E)"
+                        },
+                        "medium": {
+                            "maxWidth": "100%",
+                            "paddingLeft": "20px",
+                            "paddingRight": "20px"
+                        }
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "979:95784",
+                        "type": "FRAME",
+                        "name": "Frame 2131328687"
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-a347bb60d56303e091541c0dd224ce5e",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "100%",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                    "color": "var(--Body-White, #FFF)",
+                                    "justifyContent": "start"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95785",
+                                "type": "FRAME",
+                                "name": "Frame 2131328956"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-c94f83190842e9bb1b5803a2588ce592",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-White, #FFF)",
+                                            "fontSize": "24px",
+                                            "fontWeight": "600",
+                                            "lineHeight": "1.2",
+                                            "letterSpacing": "-0.48px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95786",
+                                        "type": "TEXT",
+                                        "name": "Холангиокарцинома"
+                                    },
+                                    "layerName": "Холангиокарцинома",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Холангиокарцинома"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-4c8c00f8dd97009eefc9ee7730d2a3d1",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-White, #FFF)",
+                                            "fontSize": "16px",
+                                            "fontWeight": "400",
+                                            "lineHeight": "22px",
+                                            "marginTop": "20px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95787",
+                                        "type": "TEXT",
+                                        "name": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии"
+                                    },
+                                    "layerName": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Препарат ТИБСОВО® в режиме монотерапии показан к применению для лечения взрослых пациентов с местнораспространенной  или метастатической холангиокарциномой  с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-678230db41d88ac40a2c55756901f950",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "81px",
+                                    "width": "100%",
+                                    "alignItems": "center",
+                                    "gap": "8px",
+                                    "justifyContent": "end"
+                                },
+                                "medium": {
+                                    "marginTop": "40px"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95788",
+                                "type": "FRAME",
+                                "name": "Frame 2131328945"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-90094e3a0a64765be7c9dc2ad7f85b1b",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "position": "relative",
+                                            "display": "flex",
+                                            "marginTop": "auto",
+                                            "marginBottom": "auto",
+                                            "width": "32px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95789",
+                                        "type": "FRAME",
+                                        "name": "Arrows, Diagrams/Arrow"
+                                    },
+                                    "layerName": "Arrows, Diagrams/Arrow",
+                                    "component": {
+                                        "name": "Image",
+                                        "options": {
+                                            "aspectRatio": 1,
+                                            "noWebp": true,
+                                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/e1f78a1b32ef700eca63719d8aee1dfee105cbe5?placeholderIfAbsent=true",
+                                            "backgroundSize": "contain"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-586c481ee32a1325bc967868792aaf31",
+                    "responsiveStyles": {
+                        "large": {
+                            "justifyContent": "space-between",
+                            "alignItems": "stretch",
+                            "borderRadius": "20px",
+                            "alignSelf": "stretch",
+                            "display": "flex",
+                            "minWidth": "240px",
+                            "marginTop": "auto",
+                            "marginBottom": "auto",
+                            "minHeight": "380px",
+                            "paddingLeft": "32px",
+                            "paddingRight": "32px",
+                            "paddingTop": "32px",
+                            "paddingBottom": "32px",
+                            "flexDirection": "column",
+                            "flex": "1",
+                            "flexShrink": "1",
+                            "flexBasis": "0%",
+                            "background": "var(--Accent_2, #61279E)"
+                        },
+                        "medium": {
+                            "maxWidth": "100%",
+                            "paddingLeft": "20px",
+                            "paddingRight": "20px"
+                        }
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "979:95796",
+                        "type": "FRAME",
+                        "name": "Frame 2131328689"
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-e05c7cc2249590cfb2b2dfa1aaab44c7",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "100%",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                    "color": "var(--Body-White, #FFF)",
+                                    "justifyContent": "start"
+                                },
+                                "medium": {}
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95797",
+                                "type": "FRAME",
+                                "name": "Frame 2131328957"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-b4f2c9a56a83094162f6b44b862cf8d5",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-White, #FFF)",
+                                            "fontSize": "24px",
+                                            "fontWeight": "600",
+                                            "lineHeight": "1.2",
+                                            "letterSpacing": "-0.48px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95798",
+                                        "type": "TEXT",
+                                        "name": "Острый миелоидный лейкоз"
+                                    },
+                                    "layerName": "Острый миелоидный лейкоз",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Острый миелоидный лейкоз"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-909cf36c7f998473038db883f93da9a2",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-White, #FFF)",
+                                            "fontSize": "16px",
+                                            "fontWeight": "400",
+                                            "lineHeight": "22px",
+                                            "marginTop": "20px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95799",
+                                        "type": "TEXT",
+                                        "name": "Препарат ТИБСОВО® в комбинации с азацитидином показан к применению для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия."
+                                    },
+                                    "layerName": "Препарат ТИБСОВО® в комбинации с азацитидином показан к применению для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия.",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Препарат ТИБСОВО® в комбинации <br/>с азацитидином показан к применению для лечения взрослых пациентов с впервые диагностированным острым миелоидным лейкозом (ОМЛ) с мутацией в гене изоцитратдегидрогеназы-1 (IDH1) R132,  которым не показана стандартная  индукционная химиотерапия."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-15250e06de2eec1964575c3510eed63a",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "59px",
+                                    "width": "100%",
+                                    "alignItems": "center",
+                                    "gap": "8px",
+                                    "justifyContent": "end"
+                                },
+                                "medium": {
+                                    "marginTop": "40px"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "979:95800",
+                                "type": "FRAME",
+                                "name": "Frame 2131328945"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-a773d3802ea5b4f02cc796a8f3be35ff",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "position": "relative",
+                                            "display": "flex",
+                                            "marginTop": "auto",
+                                            "marginBottom": "auto",
+                                            "width": "32px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "979:95801",
+                                        "type": "FRAME",
+                                        "name": "Arrows, Diagrams/Arrow"
+                                    },
+                                    "layerName": "Arrows, Diagrams/Arrow",
+                                    "component": {
+                                        "name": "Image",
+                                        "options": {
+                                            "aspectRatio": 1,
+                                            "noWebp": true,
+                                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/e1f78a1b32ef700eca63719d8aee1dfee105cbe5?placeholderIfAbsent=true",
+                                            "backgroundSize": "contain"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-6fa30f6807e147418c6c3a7098b7f608"
+}
